@@ -1,0 +1,54 @@
+body {
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1.title {
+  text-align: center;
+  color: #0073ab;
+}
+
+div.country-list, div.svg-container{
+  float:left;
+}
+
+div.svg-container {
+  width: 800px;
+  margin-left: auto;
+
+}
+
+div.country-list-div {
+  float: left;
+  margin-right: auto;
+}
+
+p.credit {
+  clear: both;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+
+.grid line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+
+.grid path {
+  stroke-width: 0;
+}
+
+.axis--x path {
+  display: none;
+}
+
+.line {
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
